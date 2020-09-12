@@ -1,0 +1,34 @@
+{
+  "name": "woopicon",
+  "version": "1.0.0",
+  "description": "simple serverless woocommerce integration for hipicon orders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metinogurlu/woopicon.git"
+  },
+  "keywords": [
+    "woocommerce",
+    "integration",
+    "ecommerce",
+    "hipicon",
+    "serverless"
+  ],
+  "author": "metinogurlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metinogurlu/woopicon/issues"
+  },
+  "homepage": "https://github.com/metinogurlu/woopicon#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
